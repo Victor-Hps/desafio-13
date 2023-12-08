@@ -39,5 +39,32 @@ main{
     left: 50%;
 
     transform: translate(-50%, -50%);
-
 }
+
+#tela{
+    position: relative;
+    top: 80px;
+    left: 22px;
+    height: 471px;
+    width: 267px;
+}
+
+#redes-sociais{
+    text-align: right;
+    margin-right: 10px;
+}
+
+#redes-sociais img{
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    margin: 10px;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.747);
+}
+
+#redes-sociais img:hover{
+    transform: translateX(5px);
+    transition-duration: 0.4s;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.712);
+}
+
